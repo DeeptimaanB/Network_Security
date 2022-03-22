@@ -17,7 +17,7 @@ def scan(ip):
     # print(arp_request.summary())
     # arp_request.show()
 
-    broadcast = scapy.Ether(dst="ff:ff:ff:ff:ff:Ff")
+    broadcast = scapy.Ether(dst="ff:ff:ff:ff:ff:ff")
     # print(broadcast.summary())
     # broadcast.show()
 
